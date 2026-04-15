@@ -5,7 +5,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+          <title>wasm works</title>
+      </head>
+      <body>
+      <header>
+      </header>
+      {children}
+      <footer>© 2025 WASM Works Inc. | Rust · WASM · WASI</footer>
+      </body>
     </html>
   );
 }
